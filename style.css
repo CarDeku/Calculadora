@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+    background-color: #000;
+}
+
+.calc{
+    outline: 1px solid black;
+    width: 400px;
+    height: 450px;
+    margin: 100px auto;
+    padding: 30px 20px;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.6);
+    border-radius: 4px 30px;
+    background: rgb(59,22,52);
+background: linear-gradient(90deg, rgba(59,22,52,1) 13%, rgba(84,57,140,1) 41%, rgba(22,73,92,1) 83%);
+}
+
+.calc__screen{
+    width: 100%;
+    margin: 0 auto 20px;
+    padding: 0 6px;
+    border-radius: 4px;
+    background: rgb(212,181,207);
+    background: linear-gradient(90deg, rgba(212,181,207,1) 13%, rgba(203,192,227,1) 41%, rgba(188,214,223,1) 83%);
+    color: brown;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.calc button{
+    width: 58px;
+    height: 50px;
+    margin: 0 10px 30px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgb(212,181,207);
+    background: linear-gradient(90deg, rgba(212,181,207,1) 13%, rgba(203,192,227,1) 41%, rgba(188,214,223,1) 83%);
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+}
+.calc__screen{
+    color: brown;
+}
+
+.calc button#width{
+    width: 200px;
+}
+
+.calc button:hover{
+    cursor: pointer;
+    background: rgb(255, 234, 234);
+}
